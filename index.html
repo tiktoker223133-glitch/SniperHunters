@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sniper Hunt</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#0d1117;
+    color:white;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+    background:
+    linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url("https://images.unsplash.com/photo-1511884642898-4c92249e20b6?q=80&w=1920");
+    background-size:cover;
+    background-position:center;
+}
+
+h1{
+    font-size:70px;
+    margin-bottom:15px;
+    color:#4ade80;
+}
+
+p{
+    max-width:700px;
+    font-size:20px;
+    margin-bottom:30px;
+    color:#d1d5db;
+}
+
+.download{
+    display:inline-block;
+    padding:18px 40px;
+    background:#22c55e;
+    color:white;
+    text-decoration:none;
+    font-size:22px;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.download:hover{
+    background:#16a34a;
+    transform:scale(1.05);
+}
+
+.features{
+    padding:70px 20px;
+    text-align:center;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    margin-top:30px;
+}
+
+.card{
+    width:280px;
+    background:#161b22;
+    padding:25px;
+    border-radius:15px;
+}
+
+.card h3{
+    margin-bottom:10px;
+    color:#4ade80;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    color:#888;
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+    <h1>SNIPER HUNT</h1>
+
+    <p>
+        Тактический PvP-шутер со снайперскими винтовками.
+        Используй маскировку, находи врагов первым и побеждай
+        в напряжённых дуэлях на дальних дистанциях.
+    </p>
+
+    <a href="SniperHunt.apk" class="download">
+        Скачать APK
+    </a>
+</section>
+
+<section class="features">
+    <h2>Особенности игры</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🎯 Снайперские дуэли</h3>
+            <p>Сражения игроков друг против друга.</p>
+        </div>
+
+        <div class="card">
+            <h3>🥷 Стелс</h3>
+            <p>Прячься и не выдавай свою позицию.</p>
+        </div>
+
+        <div class="card">
+            <h3>⚡ Быстрые матчи</h3>
+            <p>Короткие и напряжённые раунды.</p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 Sniper Hunt
+</footer>
+
+</body>
+</html>
